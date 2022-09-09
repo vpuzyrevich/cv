@@ -210,6 +210,9 @@ main {
 .skills-item:nth-child(9)::before {
     top: 219px;
 }
+.skills-item:nth-child(10)::before {
+    top: 246px;
+}
 .projects-block {
     display: flex;
     flex-wrap: wrap;
@@ -365,10 +368,10 @@ footer {
         display: none;
     }
     .courses-item:nth-child(2)::before {
-        top: 57px;
+        top: 30px;
     }
     .courses-item:nth-child(3)::before {
-        top: 111px;
+        top: 57px;
     }
     .projects-img {
         width: 260px;
