@@ -18,32 +18,17 @@
 
 <body>
     <div class="container">
-        <header class="header">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                </ul>
-            </nav>
-        </header>
         <main class="main">
             <div class="block-left">
                 <section class="section" id="profile">
                     <img src="assets/img/photo.jpeg" alt="photo" class="foto">
                     <h1 class="title">Viktoria <br /> Puzyrevich</h1>
-                    <h2 class="profile-title">Web Developer</h2>
+                    <h2 class="profile-title">Frontend developer</h2>
                 </section>
                 <section class="section" id="summary">
                     <h2 class="section-title">Summary</h2>
                     <p class="text">
-                        I want to become a front-end developer because I like to create something new and see the result
-                        of my work on the screen. I enjoy the development process and want to further develop in this
+                        I am a beginner frontend developer. I chose this profession because I like to solve logical tasks, creating something new and see the result of my work. I enjoy the development process and want to further develop in this
                         direction.
                     </p>
                 </section>
@@ -60,39 +45,67 @@
                         <li class="contacts-item"> Minsk, Belarus</li>
                     </ul>
                 </section>
-            </div>
-            <div class="block-right">
                 <section class="section" id="education">
                     <h2 class="section-title">Education</h2>
                     <div class="education-text"><span>University:</span> Belarusian National Technical University,
-                        <br /> Estimation on automobile transport</div>
+                        <br /> Valuation activities in automobile transport</div>
+                </section>
+                <section class="section">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="experience-text"><span>Freelance:</span> Aug 2021 - Jun 2022
+                        <ul>
+                            <li class="experience-item">development of new application functionality in React, TypeScript, Material UI;</li>
+                            <li class="experience-item">optimization of the existing application code;</li>
+                            <li class="experience-item">working in a team with designers and developers;</li>
+                            <li class="experience-item">development according to the Scrum methodology;</li>
+                        </ul>
                 </section>
                 <section class="section" id="courses">
                     <h2 class="section-title">Courses</h2>
                     <ul class="courses-list">
                         <li class="courses-item"><span>Udemy:</span> Web developer(HTML/CSS)</li>
                         <li class="courses-item"><span>Udemy:</span> JavaScript and React</li>
-                        <li class="courses-item"><span>RS Schools Course</span> JavaScript/Front-end. Stage 0, Stage 1 and Stage 2</li>
+                        <li class="courses-item"><span>RS Schools Course:</span> JavaScript/Front-end  2022</li>
                     </ul>
                 </section>
+            </div>
+            <div class="block-right">
                 <section class="section" id="skills">
                     <h2 class="section-title">Skills</h2>
                     <ul class="skills-list">
-                        <li class="skills-item">HTML5</li>
-                        <li class="skills-item">CSS3</li>
-                        <li class="skills-item">SASS/SCSS</li>
-                        <li class="skills-item">Bootstrap</li>
-                        <li class="skills-item">BEM</li>
-                        <li class="skills-item">Git</li>
-                        <li class="skills-item">Figma, Adobe Photoshop</li>
-                        <li class="skills-item">JavaScript</li>
-                        <li class="skills-item">TypeScript</li>
-                        <li class="skills-item">Webpack, Gulp</li>
+                        <div class="skills-list-left">
+                            <li class="skills-item">HTML5</li>
+                            <li class="skills-item">CSS3/SASS/SCSS</li>
+                            <li class="skills-item">Figma/Adobe Photoshop</li>
+                            <li class="skills-item">Git</li>
+                            <li class="skills-item">JavaScript</li>
+                            <li class="skills-item">TypeScript</li>
+                        </div>
+                        <div class="skills-list-right">
+                            <li class="skills-item">React(basics)</li>
+                            <li class="skills-item">Adaptive layout</li>
+                            <li class="skills-item">Bootstrap</li>
+                            <li class="skills-item">BEM</li>
+                            <li class="skills-item">Webpack/Gulp</li>
+                            <li class="skills-item">Material-UI</li>
+                        </div>
                     </ul>
                 </section>
                 <section class="section" id="projects">
                     <h2 class="section-title">Projects</h2>
                     <div class="projects-block">
+                        <div class="projects-item">
+                            <a href="https://vpuzyrevich.github.io/online-store/" class="projects-link" target="_blank">
+                                <img src="assets/img/online-store.png" alt="Online-store" class="projects-img">
+                                <div class="project-name">Online-store</div>
+                            </a>
+                        </div>
+                        <div class="projects-item">
+                            <a href="https://delightful-sherbet-646b9e.netlify.app/" class="projects-link" target="_blank">
+                                <img src="assets/img/rslang.png" alt="RS-Lang" class="projects-img">
+                                <div class="project-name">RS-Lang (Teamwork. I implemented authorization and the Sprint game)</div>
+                            </a>
+                        </div>
                         <div class="projects-item">
                             <a href="https://vpuzyrevich.github.io/shelter/pages/main/index.html" class="projects-link" target="_blank">
                                 <img src="assets/img/shelter.png" alt="Shelter" class="projects-img">
@@ -140,13 +153,6 @@
                 </section>
             </div>
         </main>
-        <footer class="footer">
-            <div class="github">
-                <img src="assets/img/github-white.png" alt="github" class="github-icon">
-                <a href="https://github.com/vpuzyrevich" class="githab-link">GitHub</a>
-            </div>
-            <div>&copy;2022</div>
-        </footer>
     </div>
 
 </body>
