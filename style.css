@@ -142,7 +142,7 @@ main {
     color: #000;
 }
 .block-right {
-    padding: 30px 50px;
+    padding: 20px 50px 30px;
     width: 60%;
     background-color: rgb(235, 226, 228);
 }
